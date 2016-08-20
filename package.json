@@ -2,6 +2,10 @@
   "name": "oikotie-freetext-guard",
   "version": "1.0.0",
   "description": "",
+  "repository" : {
+    "type": "git",
+    "url" : "https://github.com/pyryk/oikotie-freetext-guard"
+  },
   "main": "index.js",
   "scripts": {
     "start": "babel-node index.js",
