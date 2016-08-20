@@ -1,6 +1,6 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
-const config = require('./config.json');
+const config = require('../config.json');
 const fsp = require('fs-promise');
 const Promise = require('bluebird');
 const nodemailer = require('nodemailer');

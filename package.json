@@ -8,7 +8,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
+    "build": "babel src -d bin",
+    "start": "node bin/index.js",
+    "start-dev": "babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pyry Kröger <pkroger.org>",
