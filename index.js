@@ -11,8 +11,6 @@ const email = config.email;
 const emailPass = process.env.EMAIL_PW;
 const subject = config.subject;
 
-//const url = 'http://www.pkroger.org/asgasg';
-
 const readFile = (filename) => fsp.ensureFile(filename)
   .then(() => fsp.readFile(filename, {encoding:'utf8'}))
   .then(text => {
