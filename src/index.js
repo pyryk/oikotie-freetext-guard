@@ -1,4 +1,3 @@
-const cheerio = require('cheerio');
 const axios = require('axios');
 const config = require('../config.json');
 const fsp = require('fs-promise');
