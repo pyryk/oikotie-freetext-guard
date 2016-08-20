@@ -1,6 +1,5 @@
 'use strict';
 
-var cheerio = require('cheerio');
 var axios = require('axios');
 var config = require('../config.json');
 var fsp = require('fs-promise');
